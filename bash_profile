@@ -28,10 +28,10 @@ PS1='\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
 #After cd use ls
 cd_ll()
 {
-	\cd $1
+	\cd "$1"
 	ls
 	
 }
 alias cd='cd_ll'
-
+#test auto update
 #Finsh 
